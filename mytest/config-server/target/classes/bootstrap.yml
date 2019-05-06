@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shuwen2tingting/helloword.git
+          username: shuwen2tingting
+          password: sw@104856
+server:
+  port: 1115
