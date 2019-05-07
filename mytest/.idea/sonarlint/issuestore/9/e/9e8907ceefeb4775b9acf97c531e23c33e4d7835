@@ -1,0 +1,8 @@
+
+~squid:UselessImportCheck	"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8Âõ‰©-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Âõ‰©-
+Xsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8ì­û©-
+xsquid:UselessImportCheck"MRemove this unused import 'org.springframework.cloud.client.ServiceInstance'.(¡‡¨ã8Âõ‰©-
+‚squid:UselessImportCheck"WRemove this unused import 'org.springframework.cloud.client.discovery.DiscoveryClient'.(Ù“®¦8Âõ‰©-
+Œsquid:UselessImportCheck"\Remove this unused import 'org.springframework.cloud.netflix.eureka.EurekaClientConfigBean'.(é¤Ê©ıÿÿÿÿ8Âõ‰©-
+squid:UselessImportCheck"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8Âõ‰©-

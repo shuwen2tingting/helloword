@@ -17,3 +17,13 @@ Qeureka-client/src/main/java/com/sw/test/eureka/ServiceInstanceRestController.ja
 Keureka-client/src/main/java/com/sw/test/eureka/EurakaClientApplication.java,a\4\a4c795e9421e8951d2c1df86687be6e6664105a8
 {
 Keureka-server/src/main/java/com/sw/test/eureka/EurakaServerApplication.java,7\d\7de66f00f5f45e6ed5d090edc478f65e4949d7a4
+O
+eureka-server/eureka-server.iml,5\9\59b33c14ea6e5070e27548952f906addf8bf425f
+|
+Lconsumer/src/main/java/com/sw/test/eureka/ServiceInstanceRestController.java,9\e\9e8907ceefeb4775b9acf97c531e23c33e4d7835
+r
+Bconsumer/src/main/java/com/sw/test/eureka/ConsumerApplication.java,2\d\2d693003c9bedb629d3170e79d9d06e96690c287
+@
+consumer/pom.xml,a\e\ae0fe1fce8f97995f0225aa73104a92a194ef0d5
+j
+:consumer/src/main/java/com/sw/test/eureka/HelloRemote.java,5\5\555db6a5e9f5e13e3e9b967d4d0d2a0b30e037e2
