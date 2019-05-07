@@ -1,7 +1,15 @@
 eureka:
+  instatnce:
+    metadata-map.zone: zone2
   client:
+    register-with-eureka: true
+    fetch-registry: true
+    region: region-east
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8751/eureka/
+      zone1: http://localhost:8761/eureka/
+      zone2: http://localhost:8751/eureka/
+    availability-zones:
+        region-east: zone2
 server:
   port: 8750
 
