@@ -5,5 +5,10 @@ eureka:
 server:
   port: 8760
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health
 
 
