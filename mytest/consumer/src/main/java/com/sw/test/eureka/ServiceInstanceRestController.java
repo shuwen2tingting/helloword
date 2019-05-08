@@ -21,4 +21,10 @@ public class ServiceInstanceRestController {
     public String getEurekaClientUrl(){
         return helloRemote.getEurekaClientUrl();
     }
+
+    @GetMapping("/getString")
+    public String getString(){
+        String s=  "hello";
+        return helloRemote.getString("sw",);
+    }
 }

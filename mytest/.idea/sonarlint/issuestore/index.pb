@@ -27,3 +27,7 @@ Bconsumer/src/main/java/com/sw/test/eureka/ConsumerApplication.java,2\d\2d69300
 consumer/pom.xml,a\e\ae0fe1fce8f97995f0225aa73104a92a194ef0d5
 j
 :consumer/src/main/java/com/sw/test/eureka/HelloRemote.java,5\5\555db6a5e9f5e13e3e9b967d4d0d2a0b30e037e2
+j
+:eureka-client/src/main/java/com/sw/test/eureka/Peopel.java,d\a\da5e4f8376738eabc2619f4d1bcb16dc57ea6166
+e
+5consumer/src/main/java/com/sw/test/eureka/Peopel.java,5\5\55dc354668df9d4339a62ee5312ec83b5446af44

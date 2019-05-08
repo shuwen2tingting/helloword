@@ -34,4 +34,14 @@ public class ServiceInstanceRestController {
     public String getEurekaClientUrl(){
         return eurekaClientConfigBean.getAvailabilityZones().toString();
     }
+
+    @GetMapping("{myUrl}/get")
+    public String getString(@PathVariable String myUrl,String name){
+        return myUrl+"--"+name;
+    }
+
+    @GetMapping("{myUrl}/get")
+    public String getPeopel(@PathVariable String myUrl, Peopel p){
+        return myUrl+"--"+p.toString();
+    }
 }
