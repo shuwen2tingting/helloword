@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("eureka-client")
+@FeignClient(name="eureka-client",fallback=HelloRemoteFail.class)
 public interface HelloRemote {
 
     @GetMapping("/eureka-client-info")
@@ -16,4 +16,7 @@ public interface HelloRemote {
 
     @GetMapping("{myUrl}/getP")
     public String getP(@PathVariable String myUrl,@RequestParam Peopel name);
+
+    @GetMapping("/getP")
+    public String getP();
 }

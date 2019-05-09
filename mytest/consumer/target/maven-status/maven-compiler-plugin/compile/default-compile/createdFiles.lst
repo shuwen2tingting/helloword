@@ -1,3 +1,6 @@
 com\sw\test\eureka\HelloRemote.class
+com\sw\test\eureka\FeignConfiguration.class
+com\sw\test\eureka\HelloRemoteFail.class
 com\sw\test\eureka\ServiceInstanceRestController.class
 com\sw\test\eureka\ConsumerApplication.class
+com\sw\test\eureka\Peopel.class

@@ -25,6 +25,11 @@ public class ServiceInstanceRestController {
     @GetMapping("/getString")
     public String getString(){
         String s=  "hello";
-        return helloRemote.getString("sw",);
+        return helloRemote.getString("sw",s);
+    }
+
+    @GetMapping("/getP")
+    public String getP(){
+        return "test";
     }
 }

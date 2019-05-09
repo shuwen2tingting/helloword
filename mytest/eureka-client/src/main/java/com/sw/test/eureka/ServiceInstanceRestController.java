@@ -40,8 +40,13 @@ public class ServiceInstanceRestController {
         return myUrl+"--"+name;
     }
 
-    @GetMapping("{myUrl}/get")
+    @GetMapping("{myUrl}/getP")
     public String getPeopel(@PathVariable String myUrl, Peopel p){
         return myUrl+"--"+p.toString();
+    }
+
+    @GetMapping("/getP")
+    public String getP(){
+        return "client";
     }
 }

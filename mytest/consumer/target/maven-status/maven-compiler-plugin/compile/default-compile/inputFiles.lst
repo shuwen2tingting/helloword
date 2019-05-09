@@ -1,3 +1,6 @@
-G:\mytest\consumer\src\main\java\com\sw\test\eureka\HelloRemote.java
-G:\mytest\consumer\src\main\java\com\sw\test\eureka\ConsumerApplication.java
-G:\mytest\consumer\src\main\java\com\sw\test\eureka\ServiceInstanceRestController.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\ServiceInstanceRestController.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\FeignConfiguration.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\HelloRemote.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\HelloRemoteFail.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\Peopel.java
+G:\helloword\mytest\consumer\src\main\java\com\sw\test\eureka\ConsumerApplication.java

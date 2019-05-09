@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="consumer" />
+        <module name="euraka-client" />
+        <module name="euraka-server" />
         <module name="eureka-client" />
         <module name="eureka-server" />
       </profile>
@@ -17,6 +19,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="euraka-client" options="-parameters" />
+      <module name="euraka-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>

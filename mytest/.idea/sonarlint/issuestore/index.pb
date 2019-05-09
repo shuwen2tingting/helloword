@@ -31,3 +31,7 @@ j
 :eureka-client/src/main/java/com/sw/test/eureka/Peopel.java,d\a\da5e4f8376738eabc2619f4d1bcb16dc57ea6166
 e
 5consumer/src/main/java/com/sw/test/eureka/Peopel.java,5\5\55dc354668df9d4339a62ee5312ec83b5446af44
+q
+Aconsumer/src/main/java/com/sw/test/eureka/FeignConfiguration.java,8\b\8b5fc14b4e774b75777d141fd69ee8eb13bde4c4
+n
+>consumer/src/main/java/com/sw/test/eureka/HelloRemoteFail.java,6\c\6c12bab27cbd657e2905d6aadba340303976035d

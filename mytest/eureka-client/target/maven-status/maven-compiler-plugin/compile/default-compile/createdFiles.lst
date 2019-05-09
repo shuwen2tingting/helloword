@@ -1,2 +1,3 @@
 com\sw\test\eureka\EurakaClientApplication.class
 com\sw\test\eureka\ServiceInstanceRestController.class
+com\sw\test\eureka\Peopel.class
