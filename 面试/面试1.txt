@@ -1,5 +1,9 @@
-自我介绍
- map怎么实现hashcode和equals,为什么重写equals必须重写hashcode
+﻿自我介绍
+ map怎么实现hashcode和equals,为什么重写equals必须重写hashcode 
+# key+value key.hascode 高低位异或 hash相等 key相等
+# TreeMap compare  fail-fast
+# hashmap 源码 红黑树 -----------
+
  使用过concurrent包下的哪些类，使用场景等等。
  concurrentHashMap怎么实现？concurrenthashmap在1.8和1.7里面有什么区别
  CountDownLatch、LinkedHashMap、AQS实现原理

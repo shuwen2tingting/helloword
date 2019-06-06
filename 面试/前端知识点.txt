@@ -1,0 +1,39 @@
+https://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html
+
+https://www.cnblogs.com/autismtune/p/5210116.html
+
+
+ES6文档
+http://es6.ruanyifeng.com/#docs/let
+
+VUE文档
+https://cn.vuejs.org/v2/guide/components.html#通过-Prop-向子组件传递数据
+
+菜鸟的 css html5
+http://www.runoob.com/
+
+flex布局
+http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+
+公司别的前端小组的分享
+http://osfp.sf-express.com/index.php?m=home&c=item&a=show&item_id=22
+
+Vue常用经典开源项目汇总参考
+https://blog.csdn.net/sinat_17775997/article/details/64128597
+
+element ui
+http://element-cn.eleme.io/#/zh-CN/component/installation
+
+mint ui(网站经常崩)
+http://mint-ui.github.io/#!/zh-cn
+
+vuex
+https://vuex.vuejs.org/zh/guide/
+
+vue router
+https://blog.csdn.net/sinat_17775997/article/details/54710420
+
+axios
+https://www.kancloud.cn/yunye/axios/234845
+
+https://segmentfault.com/a/1190000009199801

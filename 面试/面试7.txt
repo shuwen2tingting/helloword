@@ -1,0 +1,18 @@
+jvm 原理，jvm内存管理，java堆栈
+springmvc,spring，mybatis,kafka,dobbo,zookeeper,redis,solr,elasticsearch
+风控系统相关系统，支付，清算，汇兑，财富
+
+https://www.codercto.com/a/46997.html
+
+https://segmentfault.com/a/1190000014534777
+
+https://blog.csdn.net/qq_26562641/article/details/80711638
+
+https://www.cnblogs.com/jpfss/p/9151655.html
+
+
+https://www.jianshu.com/p/05300f67cccc
+
+https://baijiahao.baidu.com/s?id=1593718491208782468&wfr=spider&for=pc
+
+https://baijiahao.baidu.com/s?id=1627226235050052774&wfr=spider&for=pc
