@@ -1,4 +1,6 @@
-﻿自我介绍
+﻿https://www.cnblogs.com/zgghb/p/7073136.html
+
+自我介绍
  map怎么实现hashcode和equals,为什么重写equals必须重写hashcode 
 # key+value key.hascode 高低位异或 hash相等 key相等
 # TreeMap compare  fail-fast
