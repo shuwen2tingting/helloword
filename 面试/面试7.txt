@@ -10,10 +10,25 @@ https://segmentfault.com/a/1190000014534777       //对龙果支付系统的简�
 https://www.cnblogs.com/jpfss/p/9151655.html      //互联网支付系统整体架构详解
 
 
-https://www.jianshu.com/p/05300f67cccc           //支付系统设计
+***   https://www.jianshu.com/p/05300f67cccc           //支付系统设计                                    
 
 https://baijiahao.baidu.com/s?id=1593718491208782468&wfr=spider&for=pc  //点融支付系统架构的演进
 
 https://baijiahao.baidu.com/s?id=1627226235050052774&wfr=spider&for=pc  //支付系统设计白皮书：支付系统的概念与架构
 
 https://blog.csdn.net/qq_26562641/article/details/80711638    //支付宝等大型支付系统后台系统是如何对账和风控的
+
+
+浅谈12306核心模型设计思路和架构设计
+
+http://www.cnblogs.com/netfocus/p/5187241.html
+
+12306购票领域建模示例代码：
+
+https://github.com/tangxuehua/enode，具体看ENode开源项目中的E12306案例代码。
+
+
+
+
+
+
