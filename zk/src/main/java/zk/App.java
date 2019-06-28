@@ -1,5 +1,12 @@
 package zk;
 
+import org.apache.curator.RetryPolicy;
+import org.apache.curator.framework.CuratorFramework;
+import org.apache.curator.framework.CuratorFrameworkFactory;
+import org.apache.curator.framework.recipes.cache.ChildData;
+import org.apache.curator.framework.recipes.cache.NodeCache;
+import org.apache.curator.framework.recipes.cache.PathChildrenCache;
+import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.ACL;
 import org.apache.zookeeper.data.Id;
@@ -24,7 +31,122 @@ public class App
 
     private static final String IDENTITY = "zhangsan:123456";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
+       // zkClient();
+        //curatorClient();
+        System.out.println(test());
+
+    }
+
+    public static int test()throws Exception{
+        try{
+            System.out.println("try");
+            return 1;
+
+        }catch(Exception e){
+            System.out.println("catch");
+            return 2;
+        }
+        finally{
+            System.out.println("finally");
+            return 3;
+        }
+    }
+
+    public static void curatorClient() throws Exception {
+        RetryPolicy retryPolicy = new ExponentialBackoffRetry(3000, 5);
+        CuratorFramework client =  CuratorFrameworkFactory.builder()
+                .connectString("47.106.86.169:2181,47.106.86.169:2182,47.106.86.169:2183")
+                .sessionTimeoutMs(30000).connectionTimeoutMs(15000)
+                .retryPolicy(retryPolicy)
+                //.namespace("curatorTest")
+                .build();
+        client.start();
+
+        // 判断节点是否存在，存在则先删除节点
+        Stat test1Stat = client.checkExists().forPath("/curatorTest/test1");
+        if (null != test1Stat) {
+            client.delete().guaranteed().deletingChildrenIfNeeded().withVersion(-1).forPath("/curatorTest/test1");
+        }
+
+        // 创建节点
+        String test1Data = client.create()
+                .creatingParentsIfNeeded()
+                .withMode(CreateMode.PERSISTENT)
+                .withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE)
+                .forPath("/curatorTest/test1", "test1DataV1".getBytes());
+
+        // 获取节点信息
+        test1Stat = new Stat();
+        byte[] test1DataBytes = client.getData().storingStatIn(test1Stat).forPath("/curatorTest/test1");
+        System.out.println("test1 stat: " + test1Stat);
+        System.out.println("test1 data: " + new String(test1DataBytes));
+
+        // 更新节点数据
+        test1Stat = client.setData()
+                .withVersion(-1)
+                .forPath("/curatorTest/test1", "test1DataV2".getBytes());
+        System.out.println("test1 stat: " + test1Stat);
+
+        // 获取所有子节点
+        Stat childStat = new Stat();
+        List<String> childs = client.getChildren().storingStatIn(childStat).forPath("/curatorTest");
+        System.out.println("curatorTest childs: " + childs);
+
+        //        client.delete()
+        //                .guaranteed()
+        //                .withVersion(-1)
+        //                .inBackground(((client1, event) -> {
+        //                    System.out.println(event.getPath() + ", data=" + event.getData());
+        //                    System.out.println("event type=" + event.getType());
+        //                    System.out.println("event code=" + event.getResultCode());
+        //                }))
+        //                .forPath("/curatorTest/test1");
+
+        // 缓存节点
+        NodeCache nodeCache = new NodeCache(client, "/curatorTest/test1");
+        nodeCache.start(true);
+        nodeCache.getListenable().addListener(() -> {
+            System.out.println("NodeCache:");
+            ChildData childData = nodeCache.getCurrentData();
+            if (null != childData) {
+                System.out.println("path=" + childData.getPath() + ", data=" + new String(childData.getData()) + ";");
+            }
+        });
+
+
+        // 缓存子节点
+        PathChildrenCache pathChildrenCache = new PathChildrenCache(client, "/curatorTest", true);
+        // startMode为BUILD_INITIAL_CACHE，cache是初始化完成会发送INITIALIZED事件
+        pathChildrenCache.start(PathChildrenCache.StartMode.BUILD_INITIAL_CACHE);
+        System.out.println(pathChildrenCache.getCurrentData().size());
+        pathChildrenCache.getListenable().addListener(((client1, event) -> {
+            ChildData data = event.getData();
+            switch (event.getType()) {
+                case INITIALIZED:
+                    System.out.println("子节点cache初始化完成(StartMode为POST_INITIALIZED_EVENT的情况)");
+                    System.out.println("INITIALIZED: " + pathChildrenCache.getCurrentData().size());
+                    break;
+                case CHILD_ADDED:
+                    System.out.println("添加子节点，path=" + data.getPath() + ", data=" + new String(data.getData()));
+                    break;
+                case CHILD_UPDATED:
+                    System.out.println("更新子节点，path=" + data.getPath() + ", data=" + new String(data.getData()));
+                    break;
+                case CHILD_REMOVED:
+                    System.out.println("删除子节点，path=" + data.getPath());
+                    break;
+                default:
+                    System.out.println(event.getType());
+            }
+        }));
+
+        Thread.sleep(20000000);
+    }
+
+
+
+    public static void zkClient() {
         try {
             Watcher defaultWatcher = new Watcher() {
                 public void process(WatchedEvent event) {
