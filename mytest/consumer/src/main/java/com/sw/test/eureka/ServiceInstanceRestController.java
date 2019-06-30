@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashSet;
 import java.util.List;
 
-@RestController
+@RestController("eureka-client")
 public class ServiceInstanceRestController {
     @Autowired
     HelloRemote helloRemote;
@@ -30,6 +30,9 @@ public class ServiceInstanceRestController {
 
     @GetMapping("/getP")
     public String getP(){
-        return "test";
+        Peopel peopel = new Peopel();
+        peopel.setAge(20);
+        peopel.setName("hamapi");
+        return helloRemote.getP("url-from-consumer",peopel);
     }
 }

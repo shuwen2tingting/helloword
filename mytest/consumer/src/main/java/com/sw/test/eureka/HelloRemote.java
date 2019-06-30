@@ -12,10 +12,10 @@ public interface HelloRemote {
     String getEurekaClientUrl();
 
     @GetMapping("{myUrl}/get")
-    public String getString(@PathVariable String myUrl,@RequestParam String name);
+    public String getString(@PathVariable("myUrl") String myUrl,@RequestParam("name") String name);
 
     @GetMapping("{myUrl}/getP")
-    public String getP(@PathVariable String myUrl,@RequestParam Peopel name);
+    public String getP(@PathVariable("myUrl") String myUrl,@RequestParam("name") Peopel name);
 
     @GetMapping("/getP")
     public String getP();

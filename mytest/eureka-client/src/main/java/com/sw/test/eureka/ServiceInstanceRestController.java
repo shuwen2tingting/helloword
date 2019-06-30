@@ -1,5 +1,6 @@
 package com.sw.test.eureka;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@Slf4j
 public class ServiceInstanceRestController {
     @Autowired
     private DiscoveryClient discoveryClient;
@@ -42,6 +44,7 @@ public class ServiceInstanceRestController {
 
     @GetMapping("{myUrl}/getP")
     public String getPeopel(@PathVariable String myUrl, Peopel p){
+        log.error(p.toString());
         return myUrl+"--"+p.toString();
     }
 
