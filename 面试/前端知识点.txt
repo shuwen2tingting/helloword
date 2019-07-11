@@ -37,3 +37,15 @@ axios
 https://www.kancloud.cn/yunye/axios/234845
 
 https://segmentfault.com/a/1190000009199801
+
+
+https://segmentfault.com/a/1190000010659925?utm_source=tag-newest
+
+dubbo
+zookeeper
+高并发，高QPS架构
+关系型数据库，非关系型数据库
+docker
+mybatis
+springcloud
+kafka

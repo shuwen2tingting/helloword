@@ -5,14 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../bookmarks_2019_5_7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookmarks_2019_5_8.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookmarks_2019_6_21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logs/iask.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/iask.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zk/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zk/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/App$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zk/App$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/App$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zk/App$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zk/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zk.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -335,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561716381964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561721243548" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -400,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29501083" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36659437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35249457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5802603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
