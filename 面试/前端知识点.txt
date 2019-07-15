@@ -41,6 +41,7 @@ https://segmentfault.com/a/1190000009199801
 
 https://segmentfault.com/a/1190000010659925?utm_source=tag-newest
 
+kafka
 dubbo
 zookeeper
 高并发，高QPS架构
@@ -48,4 +49,3 @@ zookeeper
 docker
 mybatis
 springcloud
-kafka

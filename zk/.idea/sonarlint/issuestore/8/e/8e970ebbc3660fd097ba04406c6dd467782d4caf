@@ -1,0 +1,76 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(†¨ğ†ÿÿÿÿÿ8¸ª©¿-
+^squid:S1854"=Remove this useless assignment to local variable "test1Data".(Ûôºòùÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(òê¯şÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(£İªª8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Îµıÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(½ÁıÀ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨Ã‘âûÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÊ†µüÿÿÿÿ8¸ª©¿-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸ª©¿-
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¡ôÀ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Îµıÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(²ÛŒàşÿÿÿÿ8¸ª©¿-
+Isquid:S1604"(Make this anonymous inner class a lambda(ø²ğûÿÿÿÿÿ8¸ª©¿-
+dsquid:S1192"HDefine a constant instead of duplicating this literal "-------" 3 times.(üå’Ù8¸ª©¿-
+Dsquid:S1604"(Make this anonymous inner class a lambda(¯‘´˜8¸ª©¿-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢öğûÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(£²’İøÿÿÿÿ8¸ª©¿-
+csquid:S2095"GUse try-with-resources or close this "ZooKeeper" in a "finally" clause.(³­¾Ì8¸ª©¿-
+]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(£öÕ8¸ª©¿-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(îü¼Ûıÿÿÿÿ8¸ª©¿-
+Osquid:S1481".Remove this unused "test1Data" local variable.(Ûôºòùÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ8¸ª©¿-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¬îñéÿÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üå’Ù8¸ª©¿-
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬îñéÿÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ…¶şÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Í‹øÌ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÆœö8¸ª©¿-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(øµR8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿİşƒ8¸ª©¿-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(İ¬õñûÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(†é×Ë8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(´äÙîÿÿÿÿÿ8¸ª©¿-
+isquid:S1192"HDefine a constant instead of duplicating this literal ", data=" 3 times.(àŒÒıÿÿÿÿ8¸ª©¿-
+Dsquid:S1604"(Make this anonymous inner class a lambda(ı‹—8¸ª©¿-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾¢±èÿÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üå’Ù8¸ª©¿-
+]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(îş¸Ï8¸ª©¿-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ±÷èşÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨´•Àùÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(û‚ßõùÿÿÿÿ8¸ª©¿-
+tsquid:S1192"SDefine a constant instead of duplicating this literal "/curatorTest/test1" 6 times.(ÑŞßİşÿÿÿÿ8¸ª©¿-
+Qsquid:S1143"5Remove this return statement from this finally block.(›…Ú8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(àŒÒıÿÿÿÿ8¸ª©¿-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÊ€ıÿÿÿÿ8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(’Ğ†‚8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üå’Ù8¸ª©¿-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥Å÷¡8¸ª©¿-

@@ -11,8 +11,6 @@ import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.ACL;
 import org.apache.zookeeper.data.Id;
 import org.apache.zookeeper.data.Stat;
-import org.apache.zookeeper.server.NIOServerCnxn;
-import org.apache.zookeeper.server.ServerCnxn;
 import org.apache.zookeeper.server.auth.DigestAuthenticationProvider;
 
 import java.util.ArrayList;
@@ -23,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  * Hello world!
  *
  */
-public class App 
+public class ZkApp
 {
     private static final String PARENT_PATH = "/zkClientTest";
 
