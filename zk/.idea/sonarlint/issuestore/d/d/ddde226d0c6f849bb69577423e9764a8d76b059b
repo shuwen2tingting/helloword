@@ -1,78 +1,0 @@
-
-jsquid:S00112)"FDefine and throw a dedicated exception instead of using a generic one.(¬îñéÿÿÿÿÿ8¡§Íë¹-
-[
-squid:S106z"9Replace this use of System.out or System.err by a logger.(òê¯şÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106¥"9Replace this use of System.out or System.err by a logger.(üå’Ù8ØËƒ´¹-
-nsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(¾¢±èÿÿÿÿÿ8ØËƒ´¹-
-\
-squid:S106‰"9Replace this use of System.out or System.err by a logger.(£²’İøÿÿÿÿ8ØËƒ´¹-
-[
-squid:S106n"9Replace this use of System.out or System.err by a logger.(†¨ğ†ÿÿÿÿÿ8ØËƒ´¹-
-©%squid:RedundantThrowsDeclarationCheck)"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬îñéÿÿÿÿÿ8¡§Íë¹-
-V
-squid:S106/"9Replace this use of System.out or System.err by a logger.(Í‹øÌ8ÍÉÍë¹-
-nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(¢öğûÿÿÿÿ8ØËƒ´¹-
-Qsquid:S1481I".Remove this unused "test1Data" local variable.(Ûôºòùÿÿÿÿ8ØËƒ´¹-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(†é×Ë8ØËƒ´¹-
-\
-squid:S106€"9Replace this use of System.out or System.err by a logger.(âÊ†µüÿÿÿÿ8ØËƒ´¹-
-Gsquid:S1604£"(Make this anonymous inner class a lambda(¯‘´˜8ØËƒ´¹-
-vsquid:S1192C"SDefine a constant instead of duplicating this literal "/curatorTest/test1" 6 times.(ÑŞßİşÿÿÿÿ8ØËƒ´¹-
-fsquid:S2095ª"GUse try-with-resources or close this "ZooKeeper" in a "finally" clause.(³­¾Ì8ØËƒ´¹-
-[
-squid:S106S"9Replace this use of System.out or System.err by a logger.(²ÛŒàşÿÿÿÿ8ØËƒ´¹-
-[
-squid:S106q"9Replace this use of System.out or System.err by a logger.(àŒÒıÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106À"9Replace this use of System.out or System.err by a logger.(½ÁıÀ8ØËƒ´¹-
-\
-squid:S106Á"9Replace this use of System.out or System.err by a logger.(¨Ã‘âûÿÿÿÿ8ØËƒ´¹-
-Ssquid:S11434"5Remove this return statement from this finally block.(›…Ú8ÂËÊë¹-
-[
-squid:S106R"9Replace this use of System.out or System.err by a logger.(Îµıÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106™"9Replace this use of System.out or System.err by a logger.(üå’Ù8ØËƒ´¹-
-V
-squid:S1063"9Replace this use of System.out or System.err by a logger.(ÑÆœö8ºúÍë¹-
-\
-squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(éÊ€ıÿÿÿÿ8ØËƒ´¹-
-[
-squid:S106+"9Replace this use of System.out or System.err by a logger.(´äÙîÿÿÿÿÿ8¼èÌë¹-
-Lsquid:S1604—"(Make this anonymous inner class a lambda(ø²ğûÿÿÿÿÿ8ØËƒ´¹-
-_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(îş¸Ï8ØËƒ´¹-
-`squid:S1854I"=Remove this useless assignment to local variable "test1Data".(Ûôºòùÿÿÿÿ8ØËƒ´¹-
-\
-squid:S106Œ"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106Ï"9Replace this use of System.out or System.err by a logger.(£İªª8ØËƒ´¹-
-ssquid:UselessImportCheck"CRemove this unused import 'org.apache.zookeeper.server.ServerCnxn'.(Àè¢°üÿÿÿÿ8ØËƒ´¹-
-\
-squid:S106†"9Replace this use of System.out or System.err by a logger.(ˆ…¶şÿÿÿÿ8ØËƒ´¹-
-_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(£öÕ8ØËƒ´¹-
-[
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(Îµıÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106Ñ"9Replace this use of System.out or System.err by a logger.(’Ğ†‚8ØËƒ´¹-
-W
-squid:S106É"9Replace this use of System.out or System.err by a logger.(Ÿİşƒ8ØËƒ´¹-
-ksquid:S00112é"FDefine and throw a dedicated exception instead of using a generic one.(İ¬õñûÿÿÿÿ8ØËƒ´¹-
-xsquid:S2293ê"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¡ôÀ8ØËƒ´¹-
-osquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(Õ±÷èşÿÿÿÿ8ØËƒ´¹-
-W
-squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(üå’Ù8ØËƒ´¹-
-W
-squid:S106È"9Replace this use of System.out or System.err by a logger.(¥Å÷¡8ØËƒ´¹-
-Gsquid:S1148á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ØËƒ´¹-
-[
-squid:S106^"9Replace this use of System.out or System.err by a logger.(û‚ßõùÿÿÿÿ8ØËƒ´¹-
-qsquid:UselessImportCheck"FRemove this unused import 'org.apache.zookeeper.server.NIOServerCnxn'.(«Üû™8ØËƒ´¹-
-Gsquid:S1604"(Make this anonymous inner class a lambda(ı‹—8ØËƒ´¹-
-ksquid:S1192q"HDefine a constant instead of duplicating this literal ", data=" 3 times.(àŒÒıÿÿÿÿ8ØËƒ´¹-
-V
-squid:S106Ù"9Replace this use of System.out or System.err by a logger.(øµR8ØËƒ´¹-
-gsquid:S1192™"HDefine a constant instead of duplicating this literal "-------" 3 times.(üå’Ù8ØËƒ´¹-
-nsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(îü¼Ûıÿÿÿÿ8ØËƒ´¹-
-[
-squid:S106%"9Replace this use of System.out or System.err by a logger.(¨´•Àùÿÿÿÿ8İ©Ëë¹-

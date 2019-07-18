@@ -1,3 +1,12 @@
 
 [
-squid:S106#"9Replace this use of System.out or System.err by a logger.(ÏÌ³™ÿÿÿÿÿ8Ž±¬©¿-
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÏÌ³™ÿÿÿÿÿ8›«ÔÆ¿-
+V
+squid:S106'"9Replace this use of System.out or System.err by a logger.(‹×§Ê8¼–ñÆ¿-
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(»Üô¤8›«ÔÆ¿-
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¼–ñÆ¿-
+Fsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Î³ÕÆ¿-
+isquid:S2095"KUse try-with-resources or close this "KafkaProducer" in a "finally" clause.(«£ðè8›«ÔÆ¿-
+U
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¡¤Ë8ô®òÆ¿-

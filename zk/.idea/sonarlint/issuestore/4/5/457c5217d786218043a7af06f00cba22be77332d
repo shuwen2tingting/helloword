@@ -1,0 +1,9 @@
+
+©%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8µâêú¿-
+wsquid:S12108"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ8ÒÔ¾÷¿-
+Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8²¡«÷¿-
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8µâêú¿-
+„squid:UselessImportCheck"YRemove this unused import 'org.springframework.boot.autoconfigure.SpringBootApplication'.(Ë”ÖÏ8¯¬÷¿-
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ÏİÜæ8²¡«÷¿-
+wsquid:UselessImportCheck"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8¬Å÷¿-

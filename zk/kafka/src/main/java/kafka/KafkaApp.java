@@ -1,8 +1,6 @@
 package kafka;
 
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.Producer;
-import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.*;
 
 import java.util.Properties;
 
@@ -18,25 +16,38 @@ public class KafkaApp
     }
 
     public static void sendKafka(){
-        Properties props = new Properties();
-        props.put("bootstrap.servers", "47.106.86.169:9092,47.106.86.169:9093,47.106.86.169:9094");
-        props.put("acks", "all");
-        props.put("retries", 0);
-        props.put("batch.size", 16384);
-        props.put("linger.ms", 1);
-        props.put("buffer.memory", 33554432);
-        props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        try{
+            Properties props = new Properties();
+            props.put("bootstrap.servers", "47.106.86.169:9092,47.106.86.169:9093,47.106.86.169:9094");
+            props.put("acks", "all");
+            props.put("retries", 0);
+            props.put("batch.size", 16384);
+            props.put("linger.ms", 1000);
+            props.put("buffer.memory", 33554432);
+            props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+            props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
-        Producer<String,String> producer = new KafkaProducer<String, String>(props);
+            Producer<String,String> producer = new KafkaProducer<String, String>(props);
 
-        for(int i = 0; i < 100; i++){
-            producer.send(new ProducerRecord<String, String>("haha", Integer.toString(i), Integer.toString(i)));
-            System.out.println(i+":------");
+            for(int i = 0; i < 100; i++){
+                producer.send(new ProducerRecord<String, String>("test_sw", Integer.toString(i), Integer.toString(i)),
+                        new Callback() {
+                            public void onCompletion(RecordMetadata metadata, Exception e) {
+                                System.out.println(metadata+":------");
+                                if(e != null)
+                                    e.printStackTrace();
+                                System.out.println("The offset of the record we just sent is: " + metadata.offset());
+                            }
+                        });
+                System.out.println(i+":------");
+            }
+
+            producer.close();
+            System.out.println(":------end");
+        } catch (Exception e){
+            e.printStackTrace();
         }
 
-
-        producer.close();
     }
 
 }
