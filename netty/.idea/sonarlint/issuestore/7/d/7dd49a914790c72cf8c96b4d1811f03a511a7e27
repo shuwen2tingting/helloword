@@ -1,5 +1,5 @@
 
-esquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(ф≥│Ч8Й▐╞аю-
-tsquid:UselessImportCheck"IRemove this unused import 'sun.util.locale.provider.TimeZoneNameUtility'.(С╜Рё8Й▐╞аю-
-Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(С╜Рё8Й▐╞аю-
-Fsquid:S1148"#Use a logger to log this exception.(─ит┘ЩЪЪЪЪ8Ж┼жаю-
+rsquid:UselessImportCheck"IRemove this unused import 'sun.util.locale.provider.TimeZoneNameUtility'.(С╜Рё8Й▐╞аю-
+csquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(ф≥│Ч8Й▐╞аю-
+Dsquid:S1148"#Use a logger to log this exception.(─ит┘ЩЪЪЪЪ8Ж┼жаю-
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(С╜Рё8Й▐╞аю-

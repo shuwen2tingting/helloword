@@ -16,7 +16,5 @@ G
 :
 
 do/pom.xml,a\4\a4360033d7ea5efea57ae05793bc44bef465198b
-U
-%do/src/main/java/doaction/MyBean.java,a\e\ae71cc0c8576fba5f326afbf2aaaf43a2ebfaf5b
 R
 "do/src/main/java/doaction/App.java,4\5\457c5217d786218043a7af06f00cba22be77332d

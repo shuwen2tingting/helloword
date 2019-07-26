@@ -1,34 +1,34 @@
 
-Fsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÏÕÁÀ-
-msquid:S20957"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8ñøåÁÀ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë­òÖ8Ÿ•ËÁÀ-
-esquid:S001125"FDefine and throw a dedicated exception instead of using a generic one.(É€®Ğ8‚ÈåÁÀ-
-[
-squid:S106$"9Replace this use of System.out or System.err by a logger.(Œ†¹Çıÿÿÿÿ8ØİÁÀ-
-[
-squid:S106<"9Replace this use of System.out or System.err by a logger.(™„µûÿÿÿÿ8‚ÈåÁÀ-
-[
-squid:S106,"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8Ú­ÁÀ-
-[
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8¨äéÁÀ-
-Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¨äéÁÀ-
-jsquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.Executor'.(÷ı¶Œúÿÿÿÿ8ÔÎèÁÀ-
-[
-squid:S1069"9Replace this use of System.out or System.err by a logger.(Œ†¹Çıÿÿÿÿ8‚ÈåÁÀ-
-Esquid:S2189:""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ñøåÁÀ-
-esquid:S00112!"FDefine and throw a dedicated exception instead of using a generic one.(ëÅã€8‰æ©ÁÀ-
-msquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8‰æ©ÁÀ-
-Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‰æ©ÁÀ-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8‰æ©ÁÀ-
-V
-squid:S106?"9Replace this use of System.out or System.err by a logger.(û«æ±8§ÄêÁÀ-
->squid:S2438=""Argument 1" is a "Thread".(öãÓĞøÿÿÿÿ8¨äéÁÀ-
-Esquid:S2189%""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‰æ©ÁÀ-
-msquid:S2095""JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8‰æ©ÁÀ-
-esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(òïĞë8‰æ©ÁÀ-
-V
-squid:S106*"9Replace this use of System.out or System.err by a logger.(û«æ±8‚ÙÛÁÀ-
-usquid:S1192"RDefine a constant instead of duplicating this literal " get client info:" 3 times.(ï´šÕúÿÿÿÿ8‚ÈåÁÀ-
-[
-squid:S106'"9Replace this use of System.out or System.err by a logger.(™„µûÿÿÿÿ8İƒİÁÀ-
+Csquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8›ÿÍÀ-
+Csquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8›ÿÍÀ-
+Csquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8›ÿÍÀ-
+ssquid:S1192"RDefine a constant instead of duplicating this literal " get client info:" 3 times.(ï´šÕúÿÿÿÿ8›ÿÍÀ-
+ksquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8›ÿÍÀ-
+ksquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8›ÿÍÀ-
+ksquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(‚ÃÈ¦ıÿÿÿÿ8›ÿÍÀ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë­òÖ8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ†¹Çıÿÿÿÿ8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(™„µûÿÿÿÿ8›ÿÍÀ-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(û«æ±8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ†¹Çıÿÿÿÿ8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(™„µûÿÿÿÿ8›ÿÍÀ-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(û«æ±8›ÿÍÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï´šÕúÿÿÿÿ8›ÿÍÀ-
+<squid:S2438""Argument 1" is a "Thread".(öãÓĞøÿÿÿÿ8›ÿÍÀ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(òïĞë8›ÿÍÀ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ëÅã€8›ÿÍÀ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(É€®Ğ8›ÿÍÀ-
+hsquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.Executor'.(÷ı¶Œúÿÿÿÿ8›ÿÍÀ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ÿÍÀ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ÿÍÀ-

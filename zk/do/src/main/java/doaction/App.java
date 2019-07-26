@@ -3,7 +3,9 @@ package doaction;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.concurrent.*;
 
 /**
@@ -20,6 +22,9 @@ public class App
 
 public static void main(String[] args) throws Exception {
 
+    List<Menus> list = new ArrayList<>();
+    MenuTree tree = new MenuTree(list,6);
+    List<Menus> resultList = tree.buildWithParentRoot("");
 
 // 创建线程池。线程池的"最大池大小"和"核心池大小"都为1(THREADS_SIZE)，"线程池"的阻塞队列容量为1(CAPACITY)。
 

@@ -1,2 +1,16 @@
 
-^squid:S2094"BRemove this empty class, write its code or make it an "interface".(ô·úÿÿÿÿÿ
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ“¿şÿÿÿÿ8œ³ÜÌÀ-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ó¸‚Ÿøÿÿÿÿ8ÈôŞÌÀ-
+Csquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8óÅÀÌÀ-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(©õÀƒ8Õ–ŞÌÀ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÇÌŠ 8åÛŞÌÀ-
+[squid:S1854":Remove this useless assignment to local variable "server".(„£ı“ıÿÿÿÿ8ëÃÔÌÀ-
+^squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Îâ½ÌÀ-
+Lsquid:S1481"+Remove this unused "server" local variable.(„£ı“ıÿÿÿÿ8ëÃÔÌÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(“Æ§®úÿÿÿÿ8Õ–ŞÌÀ-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(›–“¸şÿÿÿÿ8™æ±ÌÀ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¬ÖÄúÿÿÿÿ8œÉßÌÀ-

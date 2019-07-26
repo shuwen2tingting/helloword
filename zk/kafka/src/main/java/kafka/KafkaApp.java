@@ -30,7 +30,7 @@ public class KafkaApp
             Producer<String,String> producer = new KafkaProducer<String, String>(props);
 
             for(int i = 0; i < 100; i++){
-                producer.send(new ProducerRecord<String, String>("test_sw", Integer.toString(i), Integer.toString(i)),
+                producer.send(new ProducerRecord<String, String>("ting1", Integer.toString(i), Integer.toString(i)),
                         new Callback() {
                             public void onCompletion(RecordMetadata metadata, Exception e) {
                                 System.out.println(metadata+":------");

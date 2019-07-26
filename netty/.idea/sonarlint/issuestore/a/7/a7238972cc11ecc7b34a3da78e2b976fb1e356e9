@@ -1,0 +1,20 @@
+
+Msquid:S1172["*Remove this unused method parameter "key".(œïº şÿÿÿÿ8‘ö™ÍÀ-
+V
+squid:S106r"9Replace this use of System.out or System.err by a logger.(©õÀƒ8‘ö™ÍÀ-
+Esquid:S21897""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‘ö™ÍÀ-
+osquid:HiddenFieldCheck|"ARename "responseQueue" which hides the field declared at line 21.(æÆº˜ÿÿÿÿÿ8‘ö™ÍÀ-
+usquid:HiddenFieldCheckl"GRename "clientSocketChannel" which hides the field declared at line 19.(ËÃß‚úÿÿÿÿ8‘ö™ÍÀ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¬ÖÄúÿÿÿÿ8‘ö™ÍÀ-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(×«¦í8‘ö™ÍÀ-
+usquid:HiddenFieldChecky"GRename "clientSocketChannel" which hides the field declared at line 19.(ËÃß‚úÿÿÿÿ8‘ö™ÍÀ-
+[
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ñ“¿şÿÿÿÿ8‘ö™ÍÀ-
+Fsquid:S1604%"(Make this anonymous inner class a lambda(ÉãÃ®8‘ö™ÍÀ-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¬ÖÄúÿÿÿÿ8‘ö™ÍÀ-
+º%squid:RedundantThrowsDeclarationCheckj"Remove the declaration of thrown exception 'java.nio.channels.ClosedChannelException', as it cannot be thrown from method's body.(ÿ½ò‚8‘ö™ÍÀ-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğãğê8‘ö™ÍÀ-
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‘ö™ÍÀ-
