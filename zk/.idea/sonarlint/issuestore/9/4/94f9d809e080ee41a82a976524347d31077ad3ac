@@ -1,0 +1,15 @@
+
+nsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(ëê£ûøÿÿÿÿ8ÂÓÜÃÂ-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Æ ®ıÿÿÿÿ8ÂÓÜÃÂ-
+wsquid:S00116"SRename this field "MaxCount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘àÛşÿÿÿÿ8ÂÓÜÃÂ-
+`squid:S1126£"AReplace this if-then-else statement by a single return statement.(ŸÖ†Ø8ÂÓÜÃÂ-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä™²8ÂÓÜÃÂ-
+psquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¦–„8ÂÓÜÃÂ-
+osquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(õÖ²şüÿÿÿÿ8ÂÓÜÃÂ-
+Isquid:S1168?"+Return an empty collection instead of null.(¥¹ï8ÂÓÜÃÂ-
+osquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(é™Öúÿÿÿÿ8ÂÓÜÃÂ-
+Isquid:S11682"+Return an empty collection instead of null.(¥¹ï8ÂÓÜÃÂ-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÆìÁ8ÂÓÜÃÂ-
+}squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ó³„¡ùÿÿÿÿ8ÂÓÜÃÂ-
+Nsquid:S1905Y"+Remove this unnecessary cast to "Object[]".(‡·Œüÿÿÿÿ8ÂÓÜÃÂ-
+Hsquid:S1905ƒ"$Remove this unnecessary cast to "T".(¢Ğ®¡şÿÿÿÿ8ÂÓÜÃÂ-
